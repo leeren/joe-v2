@@ -2,8 +2,8 @@
 
 pragma solidity 0.8.10;
 
-import {ILBRouter} from "../../src/interfaces/ILBRouter.sol";
-import {ILBLegacyRouter} from "../../src/interfaces/ILBLegacyRouter.sol";
+import {ILBRouter} from "src/interfaces/ILBRouter.sol";
+import {ILBLegacyRouter} from "src/interfaces/ILBLegacyRouter.sol";
 
 library Utils {
     function convertToAbsolute(int256[] memory relativeIds, uint24 startId)

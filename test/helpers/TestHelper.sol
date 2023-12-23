@@ -18,7 +18,7 @@ import "src/libraries/Constants.sol";
 
 import {PriceHelper} from "src/libraries/PriceHelper.sol";
 
-import "../../src/interfaces/IPendingOwnable.sol";
+import "src/interfaces/IPendingOwnable.sol";
 
 import "./Utils.sol";
 

@@ -5,7 +5,7 @@ pragma solidity 0.8.10;
 import "openzeppelin/proxy/Clones.sol";
 import "openzeppelin/utils/structs/EnumerableSet.sol";
 
-import "./LBErrors.sol";
+import "src/LBErrors.sol";
 import "./libraries/BinHelper.sol";
 import "./libraries/Constants.sol";
 import "./libraries/Decoder.sol";
